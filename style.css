@@ -1,12 +1,15 @@
 *{
     margin: 0%;
     padding: 0%;
+
+
 }
-
-
 body{
-    background-color: #070519;
+    background-color: #0D0A27;
 }
+
+
+
 #naymarPic{
     width: 30%;
     float: left;
@@ -22,7 +25,7 @@ body{
 #footbal{
     width: 25%;
     float: right;
-    margin-top: -11.5%;
+    margin-top: -14.5%;
 }
 
 .text{
@@ -50,3 +53,40 @@ body{
     margin-top: -2%;
 }
 
+/* ---------------------------------------------*/
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.all{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+   
+    background-color: #0D0A27;
+   
+}
+
+.pic{
+    height: 200px;
+}
+
+
+
+.two{ 
+    width: 450px;
+    background-color: #0D0A27;
+    color: white;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+
+
+
+.all{
+    background-color: #0d0a27;
+}
